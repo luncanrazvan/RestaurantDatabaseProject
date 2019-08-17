@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.restaurantdatabaseproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.example.restaurantdatabaseproject.Startup"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.restaurantdatabaseproject.AdminUpdateActivity"
+            android:parentActivityName="com.example.restaurantdatabaseproject.MainActivityAdmin">
+        </activity>
+        <activity android:name="com.example.restaurantdatabaseproject.MainActivityAdmin"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:parentActivityName="com.example.restaurantdatabaseproject.MainActivity"/>
+        <activity android:name="com.example.restaurantdatabaseproject.AdminDelete"
+            android:parentActivityName="com.example.restaurantdatabaseproject.MainActivityAdmin"/>
+        <activity android:name="com.example.restaurantdatabaseproject.AdminActivity"
+            android:parentActivityName="com.example.restaurantdatabaseproject.MainActivityAdmin"/>
+        <activity android:name="com.example.restaurantdatabaseproject.AboutActivity" />
+        <activity android:name="com.example.restaurantdatabaseproject.VeganFoodActivity" />
+        <activity android:name="com.example.restaurantdatabaseproject.VegetarianFoodActivity" />
+        <activity
+            android:name="com.example.restaurantdatabaseproject.WishlistMenuActivity"
+            android:background="#ffffff"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.example.restaurantdatabaseproject.OrderMenusActivity"
+            android:background="#ffffff"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name="com.example.restaurantdatabaseproject.FoodActivity" />
+        <activity
+            android:name="com.example.restaurantdatabaseproject.ViewMenusActivity"
+            android:parentActivityName="com.example.restaurantdatabaseproject.MainActivity" />
+        <activity android:name="com.example.restaurantdatabaseproject.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

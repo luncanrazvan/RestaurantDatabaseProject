@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyRestaurant</string>
+    <string-array name="foodTypes">
+        <item>Normal</item>
+        <item>Vegetarian</item>
+        <item>Vegan</item>
+    </string-array>
+
+    <string-array name="freshOrNot">
+        <item>Not_Fresh</item>
+        <item>Fresh</item>
+    </string-array>
+
+    <string-array name="arrayForUpdates">
+        <item>Price</item>
+        <item>Description</item>
+        <item>Fresh</item>
+        <item>Price and Description</item>
+        <item>Price and Fresh</item>
+        <item>Description and Fresh</item>
+        <item>Price Description and Fresh</item>
+    </string-array>
+</resources>

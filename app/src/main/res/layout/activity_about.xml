@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Restaurant Application"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/titleTV"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTV"
+        android:text="This Application has been made in order to improve my knowledge about Android. Thanks to Youtube, I have managed to learn the basics of it. Enjoy the App and I encourage every user who stumbles upon this little project to try something new everyday. Keep learning and keep searching for something and you might find a wonderful place where you can express yourself and be yourself. Take care. Luncan Razvan-Adrian 7/31/2019 10:51 PM"/>
+
+</RelativeLayout>
